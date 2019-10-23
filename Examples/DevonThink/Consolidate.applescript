@@ -1,0 +1,11 @@
+-- Move into database
+-- Created by Christian Grunenberg on Tue Apr 01 2014.
+-- Copyright (c) 2014-2015. All rights reserved.
+
+on performSmartRule(theRecords)
+	tell application id "DNtp"
+		repeat with theRecord in theRecords
+			consolidate record theRecord
+		end repeat
+	end tell
+end performSmartRule
