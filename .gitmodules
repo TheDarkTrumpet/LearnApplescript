@@ -1,0 +1,3 @@
+[submodule "External/unforswearing_applescript"]
+	path = External/unforswearing_applescript
+	url = https://github.com/unforswearing/applescript
