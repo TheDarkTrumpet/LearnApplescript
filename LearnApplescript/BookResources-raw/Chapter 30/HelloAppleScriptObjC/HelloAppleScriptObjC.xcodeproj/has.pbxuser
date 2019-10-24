@@ -1,0 +1,134 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4F44F511110BA72D00F36EC3 /* HelloAppleScriptObjC */;
+		activeTarget = 8D1107260486CEB800E47090 /* HelloAppleScriptObjC */;
+		codeSenseManager = 4F44F527110BA73A00F36EC3 /* Code sense */;
+		executables = (
+			4F44F511110BA72D00F36EC3 /* HelloAppleScriptObjC */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					409,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 292696622;
+			PBXWorkspaceStateSaveDate = 292696622;
+		};
+		perUserProjectItems = {
+			4FC4EA16117209F000EEDC76 /* PlistBookmark */ = 4FC4EA16117209F000EEDC76 /* PlistBookmark */;
+			4FC4EA18117209F000EEDC76 /* PBXTextBookmark */ = 4FC4EA18117209F000EEDC76 /* PBXTextBookmark */;
+			4FC4EACC1172323100EEDC76 /* PBXTextBookmark */ = 4FC4EACC1172323100EEDC76 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4F44F526110BA73A00F36EC3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3B92A9F80F6ED2CB0023785B /* HelloAppleScriptObjCAppDelegate.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {587, 500}}";
+			sepNavSelRange = "{826, 0}";
+			sepNavVisRange = "{0, 826}";
+		};
+	};
+	4F44F511110BA72D00F36EC3 /* HelloAppleScriptObjC */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloAppleScriptObjC;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4F44F526110BA73A00F36EC3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4F44F527110BA73A00F36EC3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4FC4EA16117209F000EEDC76 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* HelloAppleScriptObjC-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/has/ASCG-Scripts/23610-scripts/Chapter 30/HelloAppleScriptObjC/HelloAppleScriptObjC-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	4FC4EA18117209F000EEDC76 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* HelloAppleScriptObjCAppDelegate.applescript */;
+		name = "HelloAppleScriptObjCAppDelegate.applescript: 27";
+		rLen = 0;
+		rLoc = 826;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	4FC4EACC1172323100EEDC76 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* HelloAppleScriptObjCAppDelegate.applescript */;
+		name = "HelloAppleScriptObjCAppDelegate.applescript: 27";
+		rLen = 0;
+		rLoc = 826;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* HelloAppleScriptObjC */ = {
+		activeExec = 0;
+		executables = (
+			4F44F511110BA72D00F36EC3 /* HelloAppleScriptObjC */,
+		);
+	};
+}

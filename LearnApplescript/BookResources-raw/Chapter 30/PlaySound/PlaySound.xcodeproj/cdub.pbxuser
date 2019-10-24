@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B218E1AC111C889100D69974 /* PlaySoundTwo */;
+		activeTarget = 8D1107260486CEB800E47090 /* PlaySoundTwo */;
+		codeSenseManager = B218E1C2111C88A200D69974 /* Code sense */;
+		executables = (
+			B218E1AC111C889100D69974 /* PlaySoundTwo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287091619;
+			PBXWorkspaceStateSaveDate = 287091619;
+		};
+		perUserProjectItems = {
+			B218E25E111CAC3E00D69974 /* PBXTextBookmark */ = B218E25E111CAC3E00D69974 /* PBXTextBookmark */;
+			B218E28E111CB50C00D69974 /* PBXTextBookmark */ = B218E28E111CB50C00D69974 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B218E1C1111C88A200D69974 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3B92A9F80F6ED2CB0023785B /* PlaySoundTwoAppDelegate.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1365, 1060}}";
+			sepNavSelRange = "{1349, 0}";
+			sepNavVisRange = "{0, 1349}";
+		};
+	};
+	8D1107260486CEB800E47090 /* PlaySoundTwo */ = {
+		activeExec = 0;
+		executables = (
+			B218E1AC111C889100D69974 /* PlaySoundTwo */,
+		);
+	};
+	B218E1AC111C889100D69974 /* PlaySoundTwo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PlaySoundTwo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B218E1C1111C88A200D69974 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B218E1C2111C88A200D69974 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B218E25E111CAC3E00D69974 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* PlaySoundTwoAppDelegate.applescript */;
+		name = "PlaySoundTwoAppDelegate.applescript: 44";
+		rLen = 0;
+		rLoc = 1349;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 520;
+	};
+	B218E28E111CB50C00D69974 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* PlaySoundTwoAppDelegate.applescript */;
+		name = "PlaySoundTwoAppDelegate.applescript: 44";
+		rLen = 0;
+		rLoc = 1349;
+		rType = 0;
+		vrLen = 1349;
+		vrLoc = 0;
+	};
+}

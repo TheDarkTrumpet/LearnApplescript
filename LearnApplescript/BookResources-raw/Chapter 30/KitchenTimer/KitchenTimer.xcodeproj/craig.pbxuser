@@ -1,0 +1,143 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 440B2DFF107044B50043FD1F /* KitchenTimer */;
+		activeTarget = 8D1107260486CEB800E47090 /* KitchenTimer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* KitchenTimer */,
+		);
+		codeSenseManager = 440B2E0B107044BA0043FD1F /* Code sense */;
+		executables = (
+			440B2DFF107044B50043FD1F /* KitchenTimer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 290389982;
+			PBXWorkspaceStateSaveDate = 290389982;
+		};
+		perUserProjectItems = {
+			4473D68C108E20DC00DA60C9 /* PBXTextBookmark */ = 4473D68C108E20DC00DA60C9 /* PBXTextBookmark */;
+			44BE71E2108D6460006FB3BB /* PBXTextBookmark */ = 44BE71E2108D6460006FB3BB /* PBXTextBookmark */;
+			44C8E719114EFFE40078832F /* PBXTextBookmark */ = 44C8E719114EFFE40078832F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 440B2E0A107044BA0043FD1F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3B92A9F80F6ED2CB0023785B /* KitchenTimerAppDelegate.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {829, 1037}}";
+			sepNavSelRange = "{777, 0}";
+			sepNavVisRange = "{0, 777}";
+		};
+	};
+	440B2DFF107044B50043FD1F /* KitchenTimer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = KitchenTimer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	440B2E0A107044BA0043FD1F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	440B2E0B107044BA0043FD1F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	440B2E0D1070451B0043FD1F /* Controller.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {829, 2678}}";
+			sepNavSelRange = "{802, 0}";
+			sepNavVisRange = "{0, 1391}";
+		};
+	};
+	4473D68C108E20DC00DA60C9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 440B2E0D1070451B0043FD1F /* Controller.applescript */;
+		name = "Controller.applescript: 33";
+		rLen = 0;
+		rLoc = 802;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 0;
+	};
+	44BE71E2108D6460006FB3BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* KitchenTimerAppDelegate.applescript */;
+		name = "KitchenTimerAppDelegate.applescript: 33";
+		rLen = 0;
+		rLoc = 777;
+		rType = 0;
+		vrLen = 777;
+		vrLoc = 0;
+	};
+	44C8E719114EFFE40078832F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 440B2E0D1070451B0043FD1F /* Controller.applescript */;
+		name = "Controller.applescript: 33";
+		rLen = 0;
+		rLoc = 802;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* KitchenTimer */ = {
+		activeExec = 0;
+		executables = (
+			440B2DFF107044B50043FD1F /* KitchenTimer */,
+		);
+	};
+}

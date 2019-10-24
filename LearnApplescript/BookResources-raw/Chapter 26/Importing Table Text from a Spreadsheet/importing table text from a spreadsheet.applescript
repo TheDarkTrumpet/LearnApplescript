@@ -1,0 +1,1 @@
+tell application "Microsoft Excel"	set value_list_of_lists to string value of selectionend tellset value_list to item 1 of value_list_of_listsrepeat with i from 2 to count value_list_of_lists	set value_list to value_list & item i of value_list_of_listsend repeattell application "Adobe InDesign CS4"	set contents of selection to value_listend tell

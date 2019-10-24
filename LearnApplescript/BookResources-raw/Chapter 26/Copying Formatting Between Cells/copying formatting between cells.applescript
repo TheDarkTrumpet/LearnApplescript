@@ -1,0 +1,1 @@
+tell application "Adobe InDesign CS4"	set dummy_props to {contents:nothing, width:nothing}	set theTable to table 1 of selection	tell theTable		set actual_props to properties of cell 1 of row 2		set the_props to dummy_props & actual_props		set properties of cell 2 of row 2 to the_props	end tellend tell

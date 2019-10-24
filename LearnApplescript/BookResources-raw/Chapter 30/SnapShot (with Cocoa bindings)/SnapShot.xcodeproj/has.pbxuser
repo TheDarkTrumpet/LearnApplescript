@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4FC4EA3E11720BF500EEDC76 /* SnapShot */;
+		activeTarget = 8D1107260486CEB800E47090 /* SnapShot */;
+		codeSenseManager = 4FC4EA5311720BFA00EEDC76 /* Code sense */;
+		executables = (
+			4FC4EA3E11720BF500EEDC76 /* SnapShot */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					632,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 292698134;
+			PBXWorkspaceStateSaveDate = 292698134;
+		};
+		perUserProjectItems = {
+			4FC4EAEB117234DB00EEDC76 /* PBXTextBookmark */ = 4FC4EAEB117234DB00EEDC76 /* PBXTextBookmark */;
+			4FC4EB2A11723B4F00EEDC76 /* PBXTextBookmark */ = 4FC4EB2A11723B4F00EEDC76 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4FC4EA5211720BFA00EEDC76 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3B92A9F80F6ED2CB0023785B /* SnapShotAppDelegate.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 975}}";
+			sepNavSelRange = "{249, 184}";
+			sepNavVisRange = "{0, 1686}";
+		};
+	};
+	4FC4EA3E11720BF500EEDC76 /* SnapShot */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SnapShot;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4FC4EA5211720BFA00EEDC76 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4FC4EA5311720BFA00EEDC76 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4FC4EAEB117234DB00EEDC76 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* SnapShotAppDelegate.applescript */;
+		name = "SnapShotAppDelegate.applescript: 73";
+		rLen = 0;
+		rLoc = 1853;
+		rType = 0;
+		vrLen = 1863;
+		vrLoc = 0;
+	};
+	4FC4EB2A11723B4F00EEDC76 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* SnapShotAppDelegate.applescript */;
+		name = "SnapShotAppDelegate.applescript: 14";
+		rLen = 184;
+		rLoc = 249;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* SnapShot */ = {
+		activeExec = 0;
+		executables = (
+			4FC4EA3E11720BF500EEDC76 /* SnapShot */,
+		);
+	};
+}
