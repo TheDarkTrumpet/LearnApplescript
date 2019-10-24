@@ -1,3 +1,6 @@
 [submodule "External/unforswearing_applescript"]
 	path = External/unforswearing_applescript
 	url = https://github.com/unforswearing/applescript
+[submodule "External/apress_learnapplescript"]
+	path = External/apress_learnapplescript
+	url = https://github.com/apress/learn-applescript
