@@ -8,13 +8,29 @@ on importLocalFile()
 	end tell
 end importLocalFile
 
-on importPDFFromURL(theURL)
+on importPDFFromURL(theURL, theTitle)
 	tell application "DEVONthink 3"
 		set miscDatabase to get 1st database whose name = "Miscellaneous"
 		set annotationFolder to 1st parent of miscDatabase whose name = "Test"
-		set theResult to create PDF document from theURL name "Devonthink Scripting (Paginated PDF)" in annotationFolder with pagination
+		set theResult to create PDF document from theURL name theTitle in annotationFolder with pagination
 		theResult
 	end tell
 end importPDFFromURL
 
-importPDFFromURL("https://discourse.devontechnologies.com/c/devonthink/scripting")
+on importPDFFromURLUnlessThere(theURL, theTitle)
+	tell application "DEVONthink 3"
+		set miscDatabase to get 1st database whose name = "Miscellaneous"
+		set annotationFolder to 1st parent of miscDatabase whose name = "Test"
+		set fileExistsP to exists record at ("/" & (name of annotationFolder) & "/" & theTitle) in miscDatabase
+		if fileExistsP is false then
+			my importPDFFromURL(theURL, theTitle)
+		end if
+	end tell
+end importPDFFromURLUnlessThere
+
+-- importLocalFile
+
+set testURL to "https://discourse.devontechnologies.com/c/devonthink/scripting"
+set testName to "DevonThink Scripting (Paginated PDF)"
+--importPDFFromURL(testURL, testName)
+importPDFFromURLUnlessThere(testURL, testName)
