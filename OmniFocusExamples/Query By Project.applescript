@@ -1,0 +1,1 @@
+use AppleScript version "2.4" -- Yosemite (10.10) or lateruse scripting additionstell application "OmniFocus"	set projectOfInterest to "[Kingfisher] AADG"	tell front document		set theProject to first project whose (name = projectOfInterest)		set theTasks to every task in theProject whose (completed = false)	end tellend tell
